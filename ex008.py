@@ -1,0 +1,12 @@
+
+nI = int(input('Digite um número inteiro qualquer: '))
+print(f'{nI} x {1} = {nI*1}')
+print(f'{nI} x {2} = {nI*2}')
+print(f'{nI} x {3} = {nI*3}')
+print(f'{nI} x {4} = {nI*4}')
+print(f'{nI} x {5} = {nI*5}')
+print(f'{nI} x {6} = {nI*6}')
+print(f'{nI} x {7} = {nI*7}')
+print(f'{nI} x {8} = {nI*8}')
+print(f'{nI} x {9} = {nI*9}')
+print(f'{nI} x {10} = {nI*10}')
