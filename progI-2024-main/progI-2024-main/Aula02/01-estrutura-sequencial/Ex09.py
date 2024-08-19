@@ -19,3 +19,14 @@ O cubo de 4 é 64.
 A metade de 4 é 2.0.
 
 """
+
+num1 = int(input("Digite um numero inteiro: \n"))
+
+
+dobro = num1 * 1
+triplo = num1 * 3
+quadrado = num1 * 4
+cubo = num1 ** 3
+metade = num1 / 2
+
+print(f" O dobro de {num1} = {dobro}\n O triplo de {num1} = {triplo}\n O quadrado de {num1} = {quadrado}\n O cubo de {num1} = {cubo}\n A metade de {num1} = {metade}\n")

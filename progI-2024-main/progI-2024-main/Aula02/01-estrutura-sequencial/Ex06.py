@@ -8,3 +8,5 @@ Exemplo de saída:
 A palavra em minúsculas é: python
 
 """
+maiuscula = input("Digite uma paralavra em maiuscula para ser convertida em minuscula: \n")
+print(f"{maiuscula}".lower())

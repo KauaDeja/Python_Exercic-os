@@ -7,3 +7,4 @@ num1 = 10
 num2 = 25
 
 # Seu código aqui
+print(f"A soma de {num1} e {num2} é {num1 + num2}")
