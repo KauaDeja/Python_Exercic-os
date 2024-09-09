@@ -12,6 +12,19 @@ Saída:
 # Solicitando número ao usuário
 numero = int(input("Digite um número inteiro: "))
 
+def eh_negativo(a):
+    return a < 0
 
+def eh_positivo(a):
+    return a > 0
 
+def eh_zero(a):
+    return a == 0
 
+if eh_negativo(numero):
+    print(f"{numero} é negativo")
+elif eh_positivo(numero):
+    print(f"{numero} é positivo")
+else:
+    eh_zero(numero)
+    print(f"{numero} é nulo")

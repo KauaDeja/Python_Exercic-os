@@ -9,5 +9,20 @@ Digite um número inteiro: 5
 Saída:
 5 é um número ímpar.
 """
-def eh_par(numero):
-    return numero % 2 == 0
+num1 = int(input("Digite um número:\n"))
+
+def eh_par(numero1):
+    
+    return (numero1 % 2 == 0)
+
+def EhImpar(numero1):
+
+    return (numero1 % 2 != 0)
+
+
+if (eh_par(num1)):
+    print(f"O numero é par")
+elif (EhImpar(num1)):
+    print(f"O número é impar")
+else:
+    print(f"Erro")

@@ -12,12 +12,17 @@ Saída:
 aprovado
 
 """
+def verificar_status_aluno(a):
+    if a > 7:
+        print("Aprovado")
+    elif a < 6:
+        print("Reprovado")
+    else:
+        print("Recuperação")
+    return
 
 # Solicitando a nota ao usuário
 nota = float(input("Digite a nota do aluno: "))
 
 # Verificando o status do aluno
 resultado = verificar_status_aluno(nota)
-
-# Exibindo o resultado
-print(resultado)
